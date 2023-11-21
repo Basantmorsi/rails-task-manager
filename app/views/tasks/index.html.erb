@@ -7,7 +7,7 @@
       <% else %>
        <input type="checkbox" name="completed" />
       <% end %>
-      <%= task.title %>
+      <%=  link_to task.title, task_path(task) %>
     </li>
  <% end %>
 </ul>
